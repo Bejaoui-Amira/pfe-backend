@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "==2.1.1"
+flask-sqlalchemy = "==2.5.1"
+psycopg2 = "*"
+python-dotenv = "*"
+flask-cors = "*"
+flask-socketio = "*"
+flask-security = "*"
+setuptools = "*"
+werkzeug = "==2.0.3"
+pytz = "*"
+sqlalchemy = "==1.4.25"
+
+[dev-packages]
+werkzeug = "*"
+
+[requires]
+python_version = "3.12"
